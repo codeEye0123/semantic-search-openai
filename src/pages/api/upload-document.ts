@@ -22,6 +22,7 @@ async function handler(
   try {
     await insertDocument(index, doc);
     res.json({success: true});
+    alert("sdfsdfsdf");
   } catch (e) {
     res.json({success: false});
   }
